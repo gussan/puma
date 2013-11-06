@@ -246,6 +246,8 @@ module Puma
 
       cli = Puma::CLI.new run_args, events
       cli.run
+
+      exit!(0)
     end
   end
 end

@@ -8,3 +8,5 @@ require 'puma/cli'
 cli = Puma::CLI.new ARGV
 
 cli.run
+
+exit!(0)
